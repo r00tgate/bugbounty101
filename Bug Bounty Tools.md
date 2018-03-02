@@ -1,3 +1,9 @@
+- Directory Enumeration
+  - DirBuster
+  - GoBuster
+  - GitDigger
+  - SYN Digger
+  - NMAP Script 
 - Firefox
   - Firebug
   - LiveHTTPHeaders
@@ -6,6 +12,9 @@
   - Tamper Data
   - User Agent Switcher
   - FoxyProxy
+- Chome
+  - Wapplyzer
+  - Builtwith
 - Proxy Tool
   - Burp Suite
   - OWASP Zap
