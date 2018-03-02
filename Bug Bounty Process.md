@@ -1,7 +1,7 @@
 # Register on a Platform
 [a relative link](/bugbounty101/Bug Bounty Platforms.md)
 
-# Pick a target
+# Pick a Target
 It is recommended to pick a target that's large and old. The new programs, websites, and companies are flooded with professionals who are have more experience and have fined tuned their tools to be efficient. A company like AT&T is expected to have tens of thousands of websites, links, sub-domains, etc. A lot of their code was written without regard to security and may have been lost or undocumented. These are the targets you want to look for. 
 
 # Read the Scope/Rules of Engagement/Policy
