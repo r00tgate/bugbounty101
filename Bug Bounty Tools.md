@@ -1,5 +1,5 @@
 - Firefox
- - Firebug
+  - Firebug
  - LiveHTTPHeaders
  - HackBar
  - Web Developer
