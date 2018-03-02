@@ -28,11 +28,13 @@ The scope of this program is limited to technical security vulnerabilities on Ya
 - Media Group One
 
 # Perform Recon of Domains in Scope
-| Itme          | Tools         | Examples  |
-| ------------- |:-------------:| -----:|
-| 	- Look for sub domains (*.example.com)
-	- Look for mobile apps
-	- Look for acquisitions (6 mo. Rule)
-		○ Wikipedia (list of mergers and acquisitions)
-	- Look for change/re-designs
-Look for mobile sites| Enumail.sh | https://history.gmheritagecenter.com/wiki/index.php/Category:Mergers_%26_Acquisitions |
+
+- Look for sub domains (*.example.com)
+- Look for mobile apps
+- Look for acquisitions (6 mo. Rule)
+  - Wikipedia (list of mergers and acquisitions)
+- Look for change/re-designs
+- Look for mobile sites
+
+Tool: Enumail.sh  <br />
+Example: https://history.gmheritagecenter.com/wiki/index.php/Category:Mergers_%26_Acquisitions
