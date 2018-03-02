@@ -1,14 +1,15 @@
 - Firefox
   - Firebug
- - LiveHTTPHeaders
- - HackBar
- - Web Developer
- - Tamper Data
- - User Agent Switcher
+  - LiveHTTPHeaders
+  - HackBar
+  - Web Developer
+  - Tamper Data
+  - User Agent Switcher
+  - FoxyProxy
 - Proxy Tool
- - Burp Suite
- - OWASP Zap
- - Fiddler
+  - Burp Suite
+  - OWASP Zap
+  - Fiddler
 - SQL Map
 - Wappanalyzer.com
 - BuiltWith.com
