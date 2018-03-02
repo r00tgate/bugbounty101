@@ -27,8 +27,9 @@ The scope of this program is limited to technical security vulnerabilities on Ya
 - Yahoo operated Wordpress blogs
 - Media Group One
 
-# Perform Recon of Domains in Scope
+# Perform Recon
 
+### Goal
 - Look for sub domains (*.example.com)
 - Look for mobile apps
 - Look for acquisitions (6 mo. Rule)
@@ -36,5 +37,52 @@ The scope of this program is limited to technical security vulnerabilities on Ya
 - Look for change/re-designs
 - Look for mobile sites
 
+### Methods
+Create a list of domain names to use: [ADD MORE]
+
 Tool: Enumail.sh  <br />
+
+Look for Mergers and Acquisitions. Generally, six (6) months after a M&A, it's in scope. <br />
 Example: https://history.gmheritagecenter.com/wiki/index.php/Category:Mergers_%26_Acquisitions
+
+Look for sites outside your list (but still in scope): <br />
+- site: example.com
+- Exclude sites you know about: -www.example.com -ftp.example.com
+
+Look at bugs reports published for your target organization. This will help you understand what kind of vulnerabilities they the target will tend to have and what you should be looking for. If someone found three XSS on sub domains of your target, chances are you'll find more as the developer and QC process didn't catch them. <br />
+Example: Facebook.com/notes/phwd/facebook-bug-bounty-/
+
+
+# Scan The Target
+Perform a port scan on your target. <br />
+Example: nmap -sS -A -Pn -p- --script=http-title example.com
+
+# Enumerate Web Servers
+### NMAP Scans
+- nmap -A -sS -Pn -p 80,443,8080 [example.com]
+- nmap -A -sS -Pn -p 80,443,8080 [example.com] --script=http-enum
+- nmap -A -sS -Pn -p 80,443,8080 [example.com] --script=http-methods
+NMAP HTTP Libraries: https://nmap.org/nsedoc/lib/http.html
+
+### Directory Enumeration
+- DirBuster
+- GoBuster
+- SYN Digger
+- Git Digger
+- nmap --script=http-enum
+
+Use directory list and RAFT lists: https://github.com/danielmiessler/SecLists/tree/master/Discovery/Web_Content
+
+### Identify Platforms
+- Wapplyzer (Chrome)
+- Builtwith (Chrome)
+- Retire.js (cmd-line or Burp)
+
+### OSINT
+Public disclosures that may not be submitted
+- Xssed.com
+- Reddit XSS /r/xss
+- Punkspider
+- Xss cx
+- Xssposed.org
+- Twitter
