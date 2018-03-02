@@ -86,3 +86,9 @@ Public disclosures that may not be submitted
 - Xss cx
 - Xssposed.org
 - Twitter
+
+### Robots.txt
+Check the website for /robots.txt
+
+### Sitemap.xml
+Check the website for /sitemap.xml
