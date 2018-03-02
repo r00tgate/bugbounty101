@@ -4,10 +4,10 @@ recommendation is to do it against real, live systems. You can do training labs 
 One caveat though: on average it takes about 3-6 months before you start consistently findings bugs. Our
 advice: Don’t get frustrated; keep up-to-date with other bug bounty hunters; and don’t forget to check out the older programs.
 
-$35,000 - Facebook’s software, netting a bug bounty of over $35,000
-$100,000 - Bounty for detailing a bug that worked around some protections in the preview version of
+- $35,000 - Facebook’s software, netting a bug bounty of over $35,000
+- $100,000 - Bounty for detailing a bug that worked around some protections in the preview version of
 Windows 8.1.
-$20,000 - Shopify for Type confusion in mrb_exc_set leading to memory corruption
+- $20,000 - Shopify for Type confusion in mrb_exc_set leading to memory corruption
 
 HackerOne
 - 1st Place: shopify-scripts ($342,400 Paid Out)
@@ -18,6 +18,6 @@ Top Sites:
 - https://bugcrowd.com/programs
 - https://www.hackerone.com/
 
-More Bug Bounties: http://www.vulnerability-lab.com/list-of-bug-bounty-programs.php
-Learn more about Bug Bounties: https://forum.bugcrowd.com/t/researcher-resources-how-to-become-abug-bounty-hunter/1102
-Hackerone: https://hackerone.com/bug-bounty-programs
+More Bug Bounties: http://www.vulnerability-lab.com/list-of-bug-bounty-programs.php <br />
+Learn more about Bug Bounties: https://forum.bugcrowd.com/t/researcher-resources-how-to-become-abug-bounty-hunter/1102 <br />
+Hackerone: https://hackerone.com/bug-bounty-programs <br />
