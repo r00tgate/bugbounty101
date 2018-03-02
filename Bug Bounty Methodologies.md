@@ -1,0 +1,4 @@
+- OWASP Testing Guide (https://www.owasp.org/index.php/OWASP_Testing_Guide_v4_Table_of_Contents)
+- Jason Haddix - Bug Bounty Methodology (https://github.com/jhaddix/tbhm)
+- Bug Crowd (https://www.bugcrowd.com/getting-started-bug-bounty-hunter-methodology/)
+- Cybrary (https://www.cybrary.it/channelcontent/getting-started-bug-bounty-hunter-methodology/)
