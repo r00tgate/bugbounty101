@@ -45,6 +45,12 @@ Tool: Enumail.sh  <br />
 Look for Mergers and Acquisitions. Generally, six (6) months after a M&A, it's in scope. <br />
 Example: https://history.gmheritagecenter.com/wiki/index.php/Category:Mergers_%26_Acquisitions
 
+Automated Sub Domain Enumeration: <br />
+> git clone https://github.com/aboul3la/Sublist3r.git <br />
+> cd Sublist3r <br />
+> python sublist3r -h <br />
+Example: python sublist3r.py -d google.com
+
 Look for sites outside your list (but still in scope): <br />
 - site: example.com
 - Exclude sites you know about: -www.example.com -ftp.example.com
