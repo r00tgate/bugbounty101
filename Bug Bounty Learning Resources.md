@@ -52,7 +52,7 @@ Link:
 Link:
 
 
-### Docker Images for Penetration Testing
+# Docker Images for Penetration Testing
     docker pull kalilinux/kali-linux-docker official Kali Linux
     docker pull owasp/zap2docker-stable – official OWASP ZAP
     docker pull wpscanteam/wpscan – official WPScan
@@ -67,3 +67,63 @@ Link:
     docker pull ismisepaul/securityshepherd – OWASP Security Shepherd
     docker pull danmx/docker-owasp-webgoat – OWASP WebGoat Project docker image
     docker pull citizenstig/nowasp – OWASP Mutillidae II Web Pen-Test Practice Application
+
+# Courses
+https://www.elearnsecurity.com/course/web_application_penetration_testing/ eLearnSecurity Web Application Penetration Testing
+
+https://www.elearnsecurity.com/course/web_application_penetration_testing_extreme/ eLearnSecurity Web Application Penetration Testing eXtreme
+
+https://www.offensive-security.com/information-security-training/advanced-web-attack-and-exploitation/ Offensive Security Advanced Web Attacks and Exploitation (live)
+
+https://www.sans.org/course/web-app-penetration-testing-ethical-hacking Sans SEC542: Web App Penetration Testing and Ethical Hacking
+
+https://www.sans.org/course/advanced-web-app-penetration-testing-ethical-hacking Sans SEC642: Advanced Web Application Security Tools and Ethical Hacking * http://opensecuritytraining.info/ – Open Security Training
+
+http://securitytrainings.net/security-trainings/ – Security Exploded Training
+
+http://www.cs.fsu.edu/~redwood/OffensiveComputerSecurity/ – FSU – Offensive Computer Security
+
+http://www.cs.fsu.edu/~lawrence/OffNetSec/ – FSU – Offensive Network Security
+
+http://www.securitytube.net/ – World’s largest Infosec and Hacking Portal.
+
+# Online Demo Sites
+http://testasp.vulnweb.com/ – Acunetix ASP test and demonstration site
+
+http://testaspnet.vulnweb.com/ – Acunetix ASP.Net test and demonstration site
+
+http://testphp.vulnweb.com/ – Acunetix PHP test and demonstration site
+
+http://crackme.cenzic.com/kelev/view/home.php – Crack Me Bank
+
+http://zero.webappsecurity.com/ – Zero Bank
+
+http://demo.testfire.net/ – Altoro Mutual
+
+# Labs
+http://www.cis.syr.edu/~wedu/seed/all_labs.html – Developing Instructional Laboratories for Computer SEcurity EDucation
+https://www.vulnhub.com/ – Virtual Machines for Localhost Penetration Testing.
+
+https://pentesterlab.com/ – PentesterLab is an easy and great way to learn penetration testing.
+
+https://github.com/jerryhoff/WebGoat.NET – This Web Application Security Tools platfrom is a learning platform about common web security flaws.
+
+http://www.dvwa.co.uk/ – Damn Vulnerable Web Application (DVWA)
+
+http://sourceforge.net/projects/lampsecurity/ – LAMPSecurity Training
+
+https://github.com/Audi-1/sqli-labs – SQLI labs to test error based, Blind boolean based, Time based.
+
+https://github.com/paralax/lfi-labs – small set of PHP scripts to practice exploiting LFI, RFI and CMD injection vulns
+
+https://hack.me/ – Build, host and share vulnerable web apps in a sandboxed environment for free
+
+http://azcwr.org/az-cyber-warfare-ranges – Free live fire Capture the Flag, blue team, red team Cyber Warfare Range for beginners through advanced users. Must use a cell phone to send a text message requesting access to the range.
+
+https://github.com/adamdoupe/WackoPicko – WackoPicko is a vulnerable web application used to test Web Application Security Tools  for scanners.
+
+https://github.com/rapid7/hackazon – Hackazon is a free, vulnerable test site that is an online storefront built with the same technologies used in today’s rich client and mobile applications.
+
+
+# Other
+More Resources: https://gbhackers.com/web-application-security-tools-resources/
