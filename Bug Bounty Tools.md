@@ -1,13 +1,15 @@
-Domain Enumeration:
+#### Domain Enumeration:
 - Sublist3r.py
 
-- Directory Enumeration
+
+#### Directory Enumeration
   - DirBuster
   - GoBuster
   - GitDigger
   - SYN Digger
   - NMAP Script 
-- Firefox
+
+#### Firefox
   - Firebug
   - LiveHTTPHeaders
   - HackBar
@@ -15,10 +17,12 @@ Domain Enumeration:
   - Tamper Data
   - User Agent Switcher
   - FoxyProxy
-- Chome
+
+#### Chome
   - Wapplyzer
   - Builtwith
-- Proxy Tool
+
+#### Proxy Tool
   - Burp Suite
   - OWASP Zap
   - Fiddler
