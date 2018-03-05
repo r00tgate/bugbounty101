@@ -33,7 +33,10 @@ Homework for Next Meeting:
 1. Hack Sony! > Tell us what you did and why!
 2. Highlight a Super Hacker > Who inspires you?  Tell us and why!  
 3. Find an awesome video, link or blog > SHARE!
-4. Other ideas? > Volunteer and Contribute!  
+4. Other ideas? > Volunteer and Contribute! 
+
+Topics for Future Meetings:
+1. Build an AWS Lab for Web Hacking
 
 **A VERY BIG THANK YOU TO EVERYONE WHO CAME!**
 
