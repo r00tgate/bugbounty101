@@ -43,18 +43,18 @@ The scope of this program is limited to technical security vulnerabilities on Ya
 Create a list of domain names to use: [ADD MORE]
 
 #### Tools
-Subbrute – A DNS meta-query spider that enumerates DNS records, and subdomains.
-dnscan – a python wordlist-based DNS subdomain scanner.
-Nmap – Yes it’s a port scanner, but it can bruteforce subdomains too (check nmap scripts)
-Recon-Ng – The recon-ng framework has a brute_hosts module that allows to bruteforce subdomains.
-DNSRecon – A powerful DNS enumeration script
-Fierce – A semi-lightweight enumeration scanner
-Gobuster – Alternative directory and file busting tool written in Go
-DNSenum – Offers recursive and threaded subdomain enumeration.
-AltDNS – offers bruteforcing based on permutations of already found domains
-Brutesubs - Automated framework for running multiple subdomain bruteforce tools at the same time. https://github.com/anshumanbh/brutesubs
-Enumail.sh - wrapper around Recon-Ng by Jason Haddix
-Sublist3r - (EDIT)
+- Subbrute – A DNS meta-query spider that enumerates DNS records, and subdomains.
+- dnscan – a python wordlist-based DNS subdomain scanner.
+- Nmap – Yes it’s a port scanner, but it can bruteforce subdomains too (check nmap scripts)
+- Recon-Ng – The recon-ng framework has a brute_hosts module that allows to bruteforce subdomains.
+- DNSRecon – A powerful DNS enumeration script
+- Fierce – A semi-lightweight enumeration scanner
+- Gobuster – Alternative directory and file busting tool written in Go
+- DNSenum – Offers recursive and threaded subdomain enumeration.
+- AltDNS – offers bruteforcing based on permutations of already found domains
+- Brutesubs - Automated framework for running multiple subdomain bruteforce tools at the same time. https://github.com/anshumanbh/brutesubs
+- Enumail.sh - wrapper around Recon-Ng by Jason Haddix
+- Sublist3r - (EDIT)
 
 Automated Sub Domain Enumeration: <br />
 > git clone https://github.com/aboul3la/Sublist3r.git <br />
