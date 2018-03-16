@@ -29,7 +29,7 @@ The scope of this program is limited to technical security vulnerabilities on Ya
 
 # Perform Recon
 
-### Goal
+## Goal
 - Look for sub domains (*.example.com)
 - Look for mobile apps
 - Look for acquisitions (6 mo. Rule)
@@ -37,7 +37,9 @@ The scope of this program is limited to technical security vulnerabilities on Ya
 - Look for change/re-designs
 - Look for mobile sites
 
-### Methods
+## Methods
+
+###Sub Domain Enumeration
 Create a list of domain names to use: [ADD MORE]
 
 Tool: Enumail.sh  <br />
