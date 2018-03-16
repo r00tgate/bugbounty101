@@ -39,13 +39,22 @@ The scope of this program is limited to technical security vulnerabilities on Ya
 
 ## Methods
 
-###Sub Domain Enumeration
+### Sub Domain Enumeration
 Create a list of domain names to use: [ADD MORE]
 
-Tool: Enumail.sh  <br />
-
-Look for Mergers and Acquisitions. Generally, six (6) months after a M&A, it's in scope. <br />
-Example: https://history.gmheritagecenter.com/wiki/index.php/Category:Mergers_%26_Acquisitions
+#### Tools
+Subbrute – A DNS meta-query spider that enumerates DNS records, and subdomains.
+dnscan – a python wordlist-based DNS subdomain scanner.
+Nmap – Yes it’s a port scanner, but it can bruteforce subdomains too (check nmap scripts)
+Recon-Ng – The recon-ng framework has a brute_hosts module that allows to bruteforce subdomains.
+DNSRecon – A powerful DNS enumeration script
+Fierce – A semi-lightweight enumeration scanner
+Gobuster – Alternative directory and file busting tool written in Go
+DNSenum – Offers recursive and threaded subdomain enumeration.
+AltDNS – offers bruteforcing based on permutations of already found domains
+Brutesubs - Automated framework for running multiple subdomain bruteforce tools at the same time. https://github.com/anshumanbh/brutesubs
+Enumail.sh - wrapper around Recon-Ng by Jason Haddix
+Sublist3r - (EDIT)
 
 Automated Sub Domain Enumeration: <br />
 > git clone https://github.com/aboul3la/Sublist3r.git <br />
@@ -53,13 +62,23 @@ Automated Sub Domain Enumeration: <br />
 > python sublist3r -h <br />
 Example: python sublist3r.py -d google.com
 
+#### Find More Domains
 Look for sites outside your list (but still in scope): <br />
 - site: example.com
 - Exclude sites you know about: -www.example.com -ftp.example.com
 
+Look for Mergers and Acquisitions. Generally, six (6) months after a M&A, it's in scope. <br />
+Example: https://history.gmheritagecenter.com/wiki/index.php/Category:Mergers_%26_Acquisitions
+
 Look at bugs reports published for your target organization. This will help you understand what kind of vulnerabilities they the target will tend to have and what you should be looking for. If someone found three XSS on sub domains of your target, chances are you'll find more as the developer and QC process didn't catch them. <br />
 Example: Facebook.com/notes/phwd/facebook-bug-bounty-/
 
+### Organize Domains/Sub-Domains
+The list of domains/sub-domains may be extensive, depending on the size of the target. First, merge the lists provide by the different tools/techniques used. The following may help remove duplicates from a text file: awk '!seen[$0]++' filename
+
+Automate the enumeration of domains/sub-domains: https://github.com/ChrisTruncer/EyeWitness
+Useage: 
+> ./EyeWitness.py -f filename -t optionaltimeout --open (Optional)
 
 # Scan The Target
 Perform a port scan on your target. <br />
