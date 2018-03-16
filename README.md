@@ -10,3 +10,6 @@ Welcome. This repo is a collection of tips, tricks, tools, and resources for lea
 - Resources <br/>
 
 The goal of the project is to help people who want help getting started as they explore the world of Bug Bounty as a hobby, night job, or career path. 
+
+####Authors
+Michael Wylie & Mae
