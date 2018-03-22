@@ -43,9 +43,12 @@ The scope of this program is limited to technical security vulnerabilities on Ya
 Create a list of domain names to use: [ADD MORE]
 
 #### Tools
-- Subbrute – A DNS meta-query spider that enumerates DNS records, and subdomains.
-- dnscan – a python wordlist-based DNS subdomain scanner.
-- Nmap – Yes it’s a port scanner, but it can bruteforce subdomains too (check nmap scripts)
+- [Subbrute](https://github.com/TheRook/subbrute) – A DNS meta-query spider that enumerates DNS records, and subdomains.
+  - Usage: ./subbrute.py -p [example.com]
+- [dnscan](https://github.com/rbsec/dnscan) – a python wordlist-based DNS subdomain scanner.
+  - Usage: ./dnscan.py -d [example.com] -w [wordlist.txt]
+- [Nmap](https://nmap.org/nsedoc/scripts/dns-brute.html) – Yes it’s a port scanner, but it can bruteforce subdomains too (check nmap scripts)
+  - Usage: nmap --script=dns-brute [example.com]
 - Recon-Ng – The recon-ng framework has a brute_hosts module that allows to bruteforce subdomains.
 - DNSRecon – A powerful DNS enumeration script
 - Fierce – A semi-lightweight enumeration scanner
