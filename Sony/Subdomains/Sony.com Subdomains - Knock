@@ -1,0 +1,62 @@
+./knockpy.py sony.com
+
+Ip Address	Status	Type	Domain Name			Server
+----------	------	----	-----------			------
+72.52.6.42              host    b2b.sony.com			
+54.80.254.215   301     alias   blog.sony.com			Apache
+54.80.254.215	301	alias	blog.asgardmap.net		Apache
+54.80.254.215	301	host	sonyblog-prod-elb-a8ee5u3eeo2g-721611743.us-east-1.elb.amazonaws.com	Apache
+52.45.230.27	301	host	sonyblog-prod-elb-a8ee5u3eeo2g-721611743.us-east-1.elb.amazonaws.com	Apache
+63.240.80.166   301     host    careers.sony.com		Microsoft-IIS/8.0
+208.74.205.253  200     alias   community.sony.com		Apache
+208.74.205.253	200	host	sony.lithium.com		Apache
+52.214.15.61    301     alias   developer.sony.com		nginx/1.13.6
+52.214.15.61	301	host	sonydw-prod-1354939315.eu-west-1.elb.amazonaws.com	nginx/1.13.6
+52.209.208.168	301	host	sonydw-prod-1354939315.eu-west-1.elb.amazonaws.com	nginx/1.13.6
+54.77.11.165	301	host	sonydw-prod-1354939315.eu-west-1.elb.amazonaws.com	nginx/1.13.6
+192.200.169.226 200     host    direct.sony.com			openresty
+160.33.196.45   302     host    docs.sony.com			BigIP
+54.192.136.144  200     alias   download.sony.com		AmazonS3
+54.192.136.144	200	host	d3qh96l7mdkskt.cloudfront.net	AmazonS3
+54.192.136.192	200	host	d3qh96l7mdkskt.cloudfront.net	AmazonS3
+54.192.136.165	200	host	d3qh96l7mdkskt.cloudfront.net	AmazonS3
+54.192.136.137	200	host	d3qh96l7mdkskt.cloudfront.net	AmazonS3
+54.192.136.108	200	host	d3qh96l7mdkskt.cloudfront.net	AmazonS3
+54.192.136.182	200	host	d3qh96l7mdkskt.cloudfront.net	AmazonS3
+54.192.136.94	200	host	d3qh96l7mdkskt.cloudfront.net	AmazonS3
+54.192.136.92	200	host	d3qh96l7mdkskt.cloudfront.net	AmazonS3
+160.33.129.8            host    edu.sony.com			
+160.33.129.22           host    enterprise.sony.com		
+64.244.122.26           host    foundry.sony.com		
+160.33.66.4             alias   ftp.sony.com			
+160.33.66.4		host	ftp.fw-sd.sony.com		
+67.199.248.13   302     alias   go.sony.com			nginx
+67.199.248.13	302	host	cname.bitly.com			nginx
+67.199.248.12	302	host	cname.bitly.com			nginx
+160.33.129.23           host    gov.sony.com			
+160.33.129.10           host    int.sony.com			
+146.215.0.32            host    jp.sony.com			
+160.33.129.103          host    my.sony.com			
+160.33.195.5            host    ns1.sony.com			
+160.33.66.21		host	ns1.sony.com			
+160.33.195.4            alias   ns2.sony.com			
+160.33.195.4		host	ns21.sony.com			
+160.33.66.20            host    ns3.sony.com			
+160.33.195.5            alias   ns4.sony.com			
+160.33.195.5		host	ns22.sony.com			
+160.33.66.21            host    ns5.sony.com			
+69.36.128.92            host    ps.sony.com			
+173.230.217.88          host    q.sony.com			
+64.37.182.63            host    secure.sony.com			
+23.214.230.200  301     alias   store.sony.com			AkamaiGHost
+23.214.230.200	301	alias	store.sony.edgekey.net		AkamaiGHost
+23.214.230.200	301	host	e12827.dscb.akamaiedge.net	AkamaiGHost
+173.230.203.198         host    test.sony.com			
+160.33.26.10            host    us.sony.com			
+52.54.18.9      301     alias   world.sony.com			Apache
+52.54.18.9	301	host	sony.net			Apache
+104.65.2.48     301     alias   www.sony.com			AkamaiGHost
+104.65.2.48	301	alias	www.gwt-usca.edgekey.net	AkamaiGHost
+104.65.2.48	301	host	e12827.dscb.akamaiedge.net	AkamaiGHost
+198.83.178.23           alias   www2.sony.com			
+198.83.178.23		host	imagprod.sel.sony.com		
