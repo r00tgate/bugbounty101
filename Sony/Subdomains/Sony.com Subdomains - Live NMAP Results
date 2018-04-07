@@ -1,0 +1,1823 @@
+nmap -n -T4 -iL live-domains-dns -oA nmap-live-targets
+
+Starting Nmap 7.01 ( https://nmap.org ) at 2018-04-07 12:02 PDT
+Nmap scan report for 1afx.spe.sony.com (208.84.227.173)
+Host is up (0.012s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for acm.account.sony.com (54.192.117.204)
+Host is up (0.018s latency).
+Other addresses for acm.account.sony.com (not scanned): 54.192.117.2 54.192.117.188 54.192.117.130 54.192.117.72 54.192.117.224 54.192.117.76 54.192.117.56
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for acorn.spe.sony.com (208.84.227.212)
+Host is up (0.0086s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for adfs.eu.sony.com (195.2.38.69)
+Host is up (0.16s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for adfs.sony.com (160.33.196.74)
+Host is up (0.077s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for ariba-sso.spe.sony.com (208.84.225.188)
+Host is up (0.031s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for asap.spe.sony.com (208.84.225.201)
+Host is up (0.029s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for asc.sel.sony.com (13.109.143.22)
+Host is up (0.062s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for at.readerstore.sony.com (173.230.217.90)
+Host is up (0.024s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for au.readerstore.sony.com (173.230.217.90)
+Host is up (0.023s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for benefits.spe.sony.com (208.84.225.193)
+Host is up (0.029s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for blog.asgardmap.net (52.45.230.27)
+Host is up (0.075s latency).
+Other addresses for blog.asgardmap.net (not scanned): 54.80.254.215
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for blog.dl.sony.com (54.192.117.62)
+Host is up (0.018s latency).
+Other addresses for blog.dl.sony.com (not scanned): 54.192.117.114 54.192.117.144 54.192.117.214 54.192.117.103 54.192.117.210 54.192.117.23 54.192.117.29 2600:9000:202f:3400:19:1e96:7840:93a1 2600:9000:202f:e200:19:1e96:7840:93a1 2600:9000:202f:1800:19:1e96:7840:93a1 2600:9000:202f:e400:19:1e96:7840:93a1 2600:9000:202f:2000:19:1e96:7840:93a1 2600:9000:202f:e00:19:1e96:7840:93a1 2600:9000:202f:2200:19:1e96:7840:93a1 2600:9000:202f:f800:19:1e96:7840:93a1
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for blog.sony.com (54.80.254.215)
+Host is up (0.075s latency).
+Other addresses for blog.sony.com (not scanned): 52.45.230.27
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for bookstore.sony.com (173.230.217.88)
+Host is up (0.024s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for bop.spe.sony.com (208.84.225.146)
+Host is up (0.033s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for br.en.kb.sony.com (129.152.38.192)
+Host is up (0.067s latency).
+Not shown: 994 filtered ports
+PORT     STATE  SERVICE
+21/tcp   closed ftp
+22/tcp   closed ssh
+80/tcp   open   http
+443/tcp  open   https
+1688/tcp closed nsjtp-data
+8008/tcp closed http
+
+Nmap scan report for br.pt.kb.sony.com (129.152.38.149)
+Host is up (0.071s latency).
+Not shown: 994 filtered ports
+PORT     STATE  SERVICE
+21/tcp   closed ftp
+22/tcp   closed ssh
+80/tcp   open   http
+443/tcp  open   https
+1688/tcp closed nsjtp-data
+8008/tcp closed http
+
+Nmap scan report for c2.spe.sony.com (208.84.225.188)
+Host is up (0.034s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for ca.en.kb.sony.com (129.152.38.192)
+Host is up (0.068s latency).
+Not shown: 993 filtered ports
+PORT     STATE  SERVICE
+21/tcp   closed ftp
+22/tcp   closed ssh
+80/tcp   open   http
+443/tcp  open   https
+1688/tcp closed nsjtp-data
+3306/tcp closed mysql
+8008/tcp closed http
+
+Nmap scan report for call.me.sel.sony.com (160.33.41.155)
+Host is up (0.013s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for camera.developer.sony.com (160.33.41.154)
+Host is up (0.015s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for careers.sony.com (63.240.80.166)
+Host is up (0.079s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for cds.csx.sony.com (68.142.107.174)
+Host is up (0.016s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for cebpartner.developer.sony.com (160.33.41.154)
+Host is up (0.013s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for centerstage.sie.sony.com (54.86.129.160)
+Host is up (0.075s latency).
+Other addresses for centerstage.sie.sony.com (not scanned): 34.237.66.236
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for ch.readerstore.sony.com (213.73.91.206)
+Host is up (0.17s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for cineshareplus.spe.sony.com (208.84.227.220)
+Host is up (0.0092s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for click.email.sel.sony.com (68.232.203.70)
+Host is up (0.063s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for click.em-sel.sel.sony.com (68.232.203.70)
+Host is up (0.062s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for click.protectionplus.sel.sony.com (68.232.203.70)
+Host is up (0.064s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for cname.bitly.com (67.199.248.13)
+Host is up (0.068s latency).
+Other addresses for cname.bitly.com (not scanned): 67.199.248.12
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for community.sony.com (204.102.114.50)
+Host is up (0.0070s latency).
+Other addresses for community.sony.com (not scanned): 204.102.114.49
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for concur.spe.sony.com (208.84.225.193)
+Host is up (0.033s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for console-api.dl.sony.com (52.85.83.93)
+Host is up (0.0090s latency).
+Other addresses for console-api.dl.sony.com (not scanned): 52.85.83.151 52.85.83.97 52.85.83.40 52.85.83.26 52.85.83.201 52.85.83.253 52.85.83.33
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for content.ap.sony.com (121.100.32.154)
+Host is up (0.21s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for content.esupport.sony.com (54.192.136.153)
+Host is up (0.0084s latency).
+Other addresses for content.esupport.sony.com (not scanned): 54.192.136.179 54.192.136.78 54.192.136.95 54.192.136.89 54.192.136.120 54.192.136.201 54.192.136.203
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for csbd.sony.com (54.192.117.155)
+Host is up (0.018s latency).
+Other addresses for csbd.sony.com (not scanned): 54.192.117.192 54.192.117.168 54.192.117.103 54.192.117.88 54.192.117.67 54.192.117.144 54.192.117.174 2600:9000:202f:3800:1a:b496:cb00:93a1 2600:9000:202f:d600:1a:b496:cb00:93a1 2600:9000:202f:1800:1a:b496:cb00:93a1 2600:9000:202f:f000:1a:b496:cb00:93a1 2600:9000:202f:4400:1a:b496:cb00:93a1 2600:9000:202f:f800:1a:b496:cb00:93a1 2600:9000:202f:7200:1a:b496:cb00:93a1 2600:9000:202f:fa00:1a:b496:cb00:93a1
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for cwa.eu.sony.com (195.2.37.184)
+Host is up (0.16s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for cx.spe.sony.com (208.84.225.169)
+Host is up (0.029s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for d3qh96l7mdkskt.cloudfront.net (54.192.136.24)
+Host is up (0.0085s latency).
+Other addresses for d3qh96l7mdkskt.cloudfront.net (not scanned): 54.192.136.150 54.192.136.171 54.192.136.133 54.192.136.81 54.192.136.97 54.192.136.43 54.192.136.56
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for dbiz.sel.sony.com (160.33.196.15)
+Host is up (0.076s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for dbiz-staging.sel.sony.com (160.33.196.142)
+Host is up (0.076s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for dctfaspex.spe.sony.com (208.84.227.172)
+Host is up (0.011s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for dctshares.spe.sony.com (208.84.227.171)
+Host is up (0.0094s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for dealersource.sel.sony.com (45.60.45.60)
+Host is up (0.0080s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+3306/tcp open  mysql
+8008/tcp open  http
+
+Nmap scan report for de.readerstore.sony.com (173.230.217.90)
+Host is up (0.024s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for dev.developer.sony.com (54.229.35.11)
+Host is up (0.16s latency).
+Other addresses for dev.developer.sony.com (not scanned): 54.72.225.67 54.76.36.143
+Not shown: 993 filtered ports
+PORT     STATE  SERVICE
+21/tcp   closed ftp
+22/tcp   closed ssh
+80/tcp   open   http
+443/tcp  open   https
+1688/tcp closed nsjtp-data
+3306/tcp closed mysql
+8008/tcp closed http
+
+Nmap scan report for developer.sony.com (52.209.208.168)
+Host is up (0.16s latency).
+Other addresses for developer.sony.com (not scanned): 52.214.15.61 54.77.11.165
+Not shown: 993 filtered ports
+PORT     STATE  SERVICE
+21/tcp   closed ftp
+22/tcp   closed ssh
+80/tcp   open   http
+443/tcp  open   https
+1688/tcp closed nsjtp-data
+3306/tcp closed mysql
+8008/tcp closed http
+
+Nmap scan report for dicer.spe.sony.com (208.84.225.188)
+Host is up (0.033s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for direct.sony.com (192.200.169.226)
+Host is up (0.057s latency).
+Not shown: 994 filtered ports
+PORT     STATE  SERVICE
+21/tcp   closed ftp
+22/tcp   closed ssh
+80/tcp   open   http
+443/tcp  open   https
+1688/tcp closed nsjtp-data
+8008/tcp closed http
+
+Nmap scan report for discover-production-145943901.us-east-1.elb.amazonaws.com (52.2.7.161)
+Host is up (0.076s latency).
+Other addresses for discover-production-145943901.us-east-1.elb.amazonaws.com (not scanned): 52.5.73.185
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for discover.sony.com (52.5.73.185)
+Host is up (0.074s latency).
+Other addresses for discover.sony.com (not scanned): 52.2.7.161
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for discover.store.sony.com (52.2.7.161)
+Host is up (0.075s latency).
+Other addresses for discover.store.sony.com (not scanned): 52.5.73.185
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for distribute.me.sel.sony.com (52.85.83.211)
+Host is up (0.0086s latency).
+Other addresses for distribute.me.sel.sony.com (not scanned): 52.85.83.123 52.85.83.55 52.85.83.246 52.85.83.209 52.85.83.60 52.85.83.247 52.85.83.19
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for dl.developer.sony.com (54.192.117.71)
+Host is up (0.018s latency).
+Other addresses for dl.developer.sony.com (not scanned): 54.192.117.2 54.192.117.128 54.192.117.165 54.192.117.39 54.192.117.187 54.192.117.159 54.192.117.70
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for dl.sony.com (54.192.117.18)
+Host is up (0.018s latency).
+Other addresses for dl.sony.com (not scanned): 54.192.117.166 54.192.117.34 54.192.117.150 54.192.117.72 54.192.117.178 54.192.117.48 54.192.117.116 2600:9000:202f:e600:12:ef79:bcc0:93a1 2600:9000:202f:de00:12:ef79:bcc0:93a1 2600:9000:202f:e00:12:ef79:bcc0:93a1 2600:9000:202f:400:12:ef79:bcc0:93a1 2600:9000:202f:6e00:12:ef79:bcc0:93a1 2600:9000:202f:4c00:12:ef79:bcc0:93a1 2600:9000:202f:1000:12:ef79:bcc0:93a1 2600:9000:202f:b800:12:ef79:bcc0:93a1
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for dmg-files.spe.sony.com (208.84.227.215)
+Host is up (0.0083s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for dmgstream2.spe.sony.com (208.84.227.249)
+Host is up (0.0083s latency).
+Not shown: 998 filtered ports
+PORT    STATE  SERVICE
+80/tcp  closed http
+443/tcp open   https
+
+Nmap scan report for dmgstreamcontrol.spe.sony.com (208.84.227.213)
+Host is up (0.010s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for dmgstream.spe.sony.com (208.84.227.233)
+Host is up (0.0082s latency).
+Not shown: 998 filtered ports
+PORT    STATE  SERVICE
+80/tcp  closed http
+443/tcp open   https
+
+Nmap scan report for docs.esupport.sony.com (54.192.136.73)
+Host is up (0.0089s latency).
+Other addresses for docs.esupport.sony.com (not scanned): 54.192.136.247 54.192.136.54 54.192.136.215 54.192.136.213 54.192.136.246 54.192.136.97 54.192.136.22
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for docs.sony.com (160.33.196.45)
+Host is up (0.077s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for download.sony.com (54.192.136.150)
+Host is up (0.0078s latency).
+Other addresses for download.sony.com (not scanned): 54.192.136.171 54.192.136.133 54.192.136.81 54.192.136.97 54.192.136.43 54.192.136.56 54.192.136.24
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for e12827.dscb.akamaiedge.net (23.214.230.200)
+Host is up (0.0098s latency).
+Other addresses for e12827.dscb.akamaiedge.net (not scanned): 2600:1406:3:380::321b 2600:1406:3:386::321b
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for e14388.dsca.akamaiedge.net (2.21.28.156)
+Host is up (0.012s latency).
+Other addresses for e14388.dsca.akamaiedge.net (not scanned): 2600:1406:34:299::3834 2600:1406:34:295::3834
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for eagl-images.spe.sony.com (208.84.227.214)
+Host is up (0.0090s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for eagl.spe.sony.com (208.84.227.210)
+Host is up (0.016s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for ebm.mail.na.readerstore.sony.com (65.125.54.105)
+Host is up (0.077s latency).
+Other addresses for ebm.mail.na.readerstore.sony.com (not scanned): 65.125.54.106 207.251.96.243 207.251.96.244
+Not shown: 993 filtered ports
+PORT     STATE  SERVICE
+21/tcp   closed ftp
+22/tcp   closed ssh
+80/tcp   open   http
+443/tcp  open   https
+1688/tcp closed nsjtp-data
+3306/tcp closed mysql
+8008/tcp closed http
+
+Nmap scan report for ebook.sony.com (173.230.217.88)
+Host is up (0.026s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for ebooks.sony.com (173.230.217.88)
+Host is up (0.028s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for ebookstore.sony.com (173.230.217.88)
+Host is up (0.024s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for elog-ids.mylog.sony.com (146.215.8.30)
+Host is up (0.20s latency).
+Other addresses for elog-ids.mylog.sony.com (not scanned): 2400:3c00:0:256::30
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for eservice.sony.com (160.33.177.77)
+Host is up (0.077s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for esupport.sony.com (52.0.35.242)
+Host is up (0.075s latency).
+Other addresses for esupport.sony.com (not scanned): 52.73.211.213
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for etrain.sel.sony.com (160.33.68.217)
+Host is up (0.015s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for experience.sony.com (72.52.6.10)
+Host is up (0.019s latency).
+Not shown: 993 filtered ports
+PORT     STATE  SERVICE
+21/tcp   closed ftp
+22/tcp   closed ssh
+80/tcp   open   http
+443/tcp  open   https
+1688/tcp closed nsjtp-data
+3306/tcp closed mysql
+8008/tcp closed http
+
+Nmap scan report for expressnet.sony.com (45.60.45.60)
+Host is up (0.013s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+3306/tcp open  mysql
+8008/tcp open  http
+
+Nmap scan report for extjbsan2.spe.sony.com (208.84.225.201)
+Host is up (0.018s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for extjbsanidm.spe.sony.com (208.84.225.218)
+Host is up (0.021s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for familycenter.sony.com (192.200.160.30)
+Host is up (0.038s latency).
+Not shown: 993 filtered ports
+PORT     STATE  SERVICE
+21/tcp   closed ftp
+22/tcp   closed ssh
+80/tcp   open   http
+443/tcp  open   https
+1688/tcp closed nsjtp-data
+3306/tcp closed mysql
+8008/tcp closed http
+
+Nmap scan report for fed.sel.sony.com (160.33.196.29)
+Host is up (0.078s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for first-flight.sony.com (13.75.89.224)
+Host is up (0.16s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for forum.sel.sony.com (208.74.205.253)
+Host is up (0.021s latency).
+Not shown: 993 filtered ports
+PORT     STATE  SERVICE
+21/tcp   closed ftp
+22/tcp   closed ssh
+80/tcp   open   http
+443/tcp  open   https
+1688/tcp closed nsjtp-data
+3306/tcp closed mysql
+8008/tcp closed http
+
+Nmap scan report for g2866b2.x.incapdns.net (45.60.45.60)
+Host is up (0.0095s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+3306/tcp open  mysql
+8008/tcp open  http
+
+Nmap scan report for gb.readerstore.sony.com (173.230.217.90)
+Host is up (0.025s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for getconsole.dl.sony.com (54.192.117.116)
+Host is up (0.023s latency).
+Other addresses for getconsole.dl.sony.com (not scanned): 54.192.117.24 54.192.117.53 54.192.117.3 54.192.117.229 54.192.117.57 54.192.117.153 54.192.117.68
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for go.sony.com (67.199.248.12)
+Host is up (0.069s latency).
+Other addresses for go.sony.com (not scanned): 67.199.248.13
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for gpas.spe.sony.com (208.84.225.189)
+Host is up (0.033s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for grc-portal.sony.com (160.33.196.86)
+Host is up (0.077s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for green.sel.sony.com (52.5.73.185)
+Host is up (0.075s latency).
+Other addresses for green.sel.sony.com (not scanned): 52.2.7.161
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for gsdsupport.spe.sony.com (208.84.227.237)
+Host is up (0.0099s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for help.me.sel.sony.com (160.33.41.150)
+Host is up (0.013s latency).
+Not shown: 998 filtered ports
+PORT    STATE  SERVICE
+80/tcp  closed http
+443/tcp open   https
+
+Nmap scan report for hrconnect.sony.com (160.33.196.30)
+Host is up (0.076s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for iampwd.sel.sony.com (160.33.197.23)
+Host is up (0.078s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for iam-test.sel.sony.com (160.33.196.140)
+Host is up (0.076s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for id-external.spe.sony.com (208.84.225.218)
+Host is up (0.028s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for idm.sel.sony.com (160.33.197.23)
+Host is up (0.076s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for idp.sel.sony.com (160.33.196.84)
+Host is up (0.075s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for id.spe.sony.com (208.84.225.188)
+Host is up (0.029s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for image.email.sel.sony.com (23.214.231.129)
+Host is up (0.016s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for image.em-sel.sel.sony.com (198.189.255.155)
+Host is up (0.0084s latency).
+Other addresses for image.em-sel.sel.sony.com (not scanned): 198.189.255.163
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for image.protectionplus.sel.sony.com (198.189.255.163)
+Host is up (0.011s latency).
+Other addresses for image.protectionplus.sel.sony.com (not scanned): 198.189.255.155
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for interplan.spe.sony.com (208.84.225.188)
+Host is up (0.020s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for iris.spe.sony.com (208.84.225.191)
+Host is up (0.027s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for it.readerstore.sony.com (173.230.217.90)
+Host is up (0.023s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for keys.eu.sony.com (195.2.36.233)
+Host is up (0.16s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for la.en.kb.sony.com (129.152.38.192)
+Host is up (0.069s latency).
+Not shown: 993 filtered ports
+PORT     STATE  SERVICE
+21/tcp   closed ftp
+22/tcp   closed ssh
+80/tcp   open   http
+443/tcp  open   https
+1688/tcp closed nsjtp-data
+3306/tcp closed mysql
+8008/tcp closed http
+
+Nmap scan report for la.es.kb.sony.com (129.152.38.149)
+Host is up (0.072s latency).
+Not shown: 993 filtered ports
+PORT     STATE  SERVICE
+21/tcp   closed ftp
+22/tcp   closed ssh
+80/tcp   open   http
+443/tcp  open   https
+1688/tcp closed nsjtp-data
+3306/tcp closed mysql
+8008/tcp closed http
+
+Nmap scan report for la-vpn.snei.sony.com (209.249.145.1)
+Host is up (0.013s latency).
+Not shown: 993 filtered ports
+PORT     STATE  SERVICE
+21/tcp   closed ftp
+22/tcp   closed ssh
+80/tcp   open   http
+443/tcp  open   https
+1688/tcp closed nsjtp-data
+3306/tcp closed mysql
+8008/tcp closed http
+
+Nmap scan report for lifelog.sony.com (52.218.16.18)
+Host is up (0.16s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for link.account.sony.com (173.230.217.66)
+Host is up (0.031s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for link.store.sony.com (208.94.20.19)
+Host is up (0.077s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for lu.ebookstore.sony.com (173.230.217.142)
+Host is up (0.030s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for lyncdiscover.am.sony.com (160.33.196.37)
+Host is up (0.076s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for lyncdiscover.jp.sony.com (211.125.129.154)
+Host is up (0.12s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for lyncdiscover.sony.com (160.33.196.37)
+Host is up (0.076s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for mail.na.readerstore.sony.com (67.134.222.254)
+Host is up (0.077s latency).
+Other addresses for mail.na.readerstore.sony.com (not scanned): 63.149.195.18 8.33.184.254
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for mdm.spe.sony.com (192.30.71.238)
+Host is up (0.059s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for mds.csx.sony.com (68.142.107.174)
+Host is up (0.032s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for mediago.sony.com (204.102.114.51)
+Host is up (0.011s latency).
+Other addresses for mediago.sony.com (not scanned): 204.102.114.43
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for metrics.sony.com (66.235.134.196)
+Host is up (0.021s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for m.info.pro.sony.com (66.117.16.17)
+Host is up (0.15s latency).
+Not shown: 993 filtered ports
+PORT     STATE  SERVICE
+21/tcp   closed ftp
+22/tcp   closed ssh
+80/tcp   open   http
+443/tcp  open   https
+1688/tcp closed nsjtp-data
+3306/tcp closed mysql
+8008/tcp closed http
+
+Nmap scan report for moveit.snei.sony.com (209.249.145.140)
+Host is up (0.012s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for m.store.sony.com (23.214.230.200)
+Host is up (0.012s latency).
+Other addresses for m.store.sony.com (not scanned): 2600:1406:3:386::321b 2600:1406:3:380::321b
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for mypss.spe.sony.com (208.84.225.201)
+Host is up (0.020s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for mysony.ap.sony.com (208.70.139.62)
+Host is up (0.042s latency).
+Not shown: 998 filtered ports
+PORT    STATE  SERVICE
+80/tcp  open   http
+443/tcp closed https
+
+Nmap scan report for nat.uspwh0361.spe.sony.com (208.84.225.216)
+Host is up (0.026s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for news.sel.sony.com (52.45.230.27)
+Host is up (0.075s latency).
+Other addresses for news.sel.sony.com (not scanned): 54.80.254.215
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for ns1.smss.sony.com (173.230.215.21)
+Host is up (0.026s latency).
+Not shown: 993 filtered ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+1688/tcp open  nsjtp-data
+3306/tcp open  mysql
+8008/tcp open  http
+
+Nmap scan report for pages.email.sel.sony.com (198.245.82.33)
+Host is up (0.063s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for partner.developer.sony.com (160.33.41.153)
+Host is up (0.013s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for pic.eu.sony.com (195.2.37.166)
+Host is up (0.16s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for pin.spe.sony.com (208.84.225.193)
+Host is up (0.028s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for potracker.spe.sony.com (208.84.225.188)
+Host is up (0.023s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for prism.spe.sony.com (208.84.225.188)
+Host is up (0.029s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for probiz.sel.sony.com (160.33.177.72)
+Host is up (0.076s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for prod.messagecenter.sony.com (54.217.223.188)
+Host is up (0.16s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for production-na01-sony.demandware.net (104.16.240.242)
+Host is up (0.011s latency).
+Other addresses for production-na01-sony.demandware.net (not scanned): 104.16.241.242
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for production-na01-sony.demandware.net.cdn.cloudflare.net (104.16.241.242)
+Host is up (0.0078s latency).
+Other addresses for production-na01-sony.demandware.net.cdn.cloudflare.net (not scanned): 104.16.240.242
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for production-pdp.sony.com (23.214.237.134)
+Host is up (0.0095s latency).
+Other addresses for production-pdp.sony.com (not scanned): 2600:1406:3:39b::689 2600:1406:3:39a::689
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for productregistration.sel.sony.com (160.33.176.105)
+Host is up (0.077s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for productregistration.sony.com (52.41.129.38)
+Host is up (0.036s latency).
+Other addresses for productregistration.sony.com (not scanned): 52.39.195.133
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for products.sel.sony.com (160.33.177.74)
+Host is up (0.075s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for prooutlet.sel.sony.com (23.214.230.200)
+Host is up (0.013s latency).
+Other addresses for prooutlet.sel.sony.com (not scanned): 2600:1406:3:380::321b 2600:1406:3:386::321b
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for pro.sony.com (2.21.28.156)
+Host is up (0.0080s latency).
+Other addresses for pro.sony.com (not scanned): 2600:1406:34:295::3834 2600:1406:34:299::3834
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for pro.sony.edgekey.net (2.21.28.156)
+Host is up (0.010s latency).
+Other addresses for pro.sony.edgekey.net (not scanned): 2600:1406:34:299::3834 2600:1406:34:295::3834
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for q.sony.com (173.230.217.88)
+Host is up (0.024s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for reader.sony.com (173.230.217.88)
+Host is up (0.024s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for readerstore.sony.com (173.230.217.88)
+Host is up (0.025s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for recycling.sel.sony.com (34.206.91.140)
+Host is up (0.075s latency).
+Other addresses for recycling.sel.sony.com (not scanned): 35.173.73.165
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for resource.cim.account.sony.com (23.5.241.150)
+Host is up (0.017s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for reviews.store.sony.com (23.54.21.67)
+Host is up (0.0085s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for rewards.sony.com (104.16.240.242)
+Host is up (0.0078s latency).
+Other addresses for rewards.sony.com (not scanned): 104.16.241.242
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for s02.download.sony.com (54.192.136.171)
+Host is up (0.0082s latency).
+Other addresses for s02.download.sony.com (not scanned): 54.192.136.133 54.192.136.81 54.192.136.97 54.192.136.43 54.192.136.56 54.192.136.24 54.192.136.150
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for sa.sde.sony.com (52.85.83.119)
+Host is up (0.0083s latency).
+Other addresses for sa.sde.sony.com (not scanned): 52.85.83.193 52.85.83.92 52.85.83.185 52.85.83.36 52.85.83.253 52.85.83.126 52.85.83.238
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for scajobs.sony.com (63.240.80.215)
+Host is up (0.080s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for sdm.sony.com (141.255.168.8)
+Host is up (0.17s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for sd-vpn.snei.sony.com (174.46.232.2)
+Host is up (0.014s latency).
+Not shown: 993 filtered ports
+PORT     STATE  SERVICE
+21/tcp   closed ftp
+22/tcp   closed ssh
+80/tcp   closed http
+443/tcp  open   https
+1688/tcp closed nsjtp-data
+3306/tcp closed mysql
+8008/tcp closed http
+
+Nmap scan report for sdw.ap.sony.com (208.70.139.62)
+Host is up (0.042s latency).
+Not shown: 998 filtered ports
+PORT    STATE  SERVICE
+80/tcp  open   http
+443/tcp closed https
+
+Nmap scan report for sel.sony.com (208.70.138.105)
+Host is up (0.041s latency).
+Not shown: 998 filtered ports
+PORT    STATE  SERVICE
+80/tcp  open   http
+443/tcp closed https
+
+Nmap scan report for service-asc.sel.sony.com (160.33.177.148)
+Host is up (0.076s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for servicenow.spe.sony.com (208.84.225.193)
+Host is up (0.036s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for servicesales.sel.sony.com (160.33.177.76)
+Host is up (0.076s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for sip.am.sony.com (160.33.196.33)
+Host is up (0.076s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for sip.ap.sony.com (160.33.196.33)
+Host is up (0.076s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for sip.eu.sony.com (195.2.37.166)
+Host is up (0.16s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for sip.jp.sony.com (137.153.56.163)
+Host is up (0.12s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for sip.sony.com (160.33.196.33)
+Host is up (0.076s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for smartr.spe.sony.com (208.84.225.201)
+Host is up (0.036s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for smb.store.sony.com (23.214.230.200)
+Host is up (0.011s latency).
+Other addresses for smb.store.sony.com (not scanned): 2600:1406:3:386::321b 2600:1406:3:380::321b
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for soar2.spe.sony.com (208.84.225.201)
+Host is up (0.032s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for sonyblog-prod-elb-a8ee5u3eeo2g-721611743.us-east-1.elb.amazonaws.com (54.80.254.215)
+Host is up (0.075s latency).
+Other addresses for sonyblog-prod-elb-a8ee5u3eeo2g-721611743.us-east-1.elb.amazonaws.com (not scanned): 52.45.230.27
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for sony.com.112.2o7.net (66.235.134.196)
+Host is up (0.017s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for sonydw-prod-1354939315.eu-west-1.elb.amazonaws.com (52.214.15.61)
+Host is up (0.16s latency).
+Other addresses for sonydw-prod-1354939315.eu-west-1.elb.amazonaws.com (not scanned): 54.77.11.165 52.209.208.168
+Not shown: 993 filtered ports
+PORT     STATE  SERVICE
+21/tcp   closed ftp
+22/tcp   closed ssh
+80/tcp   open   http
+443/tcp  open   https
+1688/tcp closed nsjtp-data
+3306/tcp closed mysql
+8008/tcp closed http
+
+Nmap scan report for sony.lithium.com (208.74.205.253)
+Host is up (0.017s latency).
+Not shown: 993 filtered ports
+PORT     STATE  SERVICE
+21/tcp   closed ftp
+22/tcp   closed ssh
+80/tcp   open   http
+443/tcp  open   https
+1688/tcp closed nsjtp-data
+3306/tcp closed mysql
+8008/tcp closed http
+
+Nmap scan report for sony.net (52.54.18.9)
+Host is up (0.075s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for spethchk01.spe.sony.com (208.84.225.24)
+Host is up (0.021s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for spheconnect.spe.sony.com (208.84.225.201)
+Host is up (0.031s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for spidr2-ext.spe.sony.com (208.84.224.205)
+Host is up (0.034s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for spiritworld.spe.sony.com (208.84.225.189)
+Host is up (0.037s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for sptshares.mc.spe.sony.com (54.229.69.208)
+Host is up (0.16s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for spt.spe.sony.com (208.84.225.188)
+Host is up (0.025s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for sso365.spe.sony.com (208.84.225.31)
+Host is up (0.036s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for ssoext.spe.sony.com (208.84.225.193)
+Host is up (0.034s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for sso.sdp.sel.sony.com (160.33.196.14)
+Host is up (0.075s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for sso-test.sel.sony.com (160.33.68.5)
+Host is up (0.012s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for static.developer.sony.com (54.192.117.29)
+Host is up (0.018s latency).
+Other addresses for static.developer.sony.com (not scanned): 54.192.117.177 54.192.117.52 54.192.117.56 54.192.117.152 54.192.117.116 54.192.117.69 54.192.117.22
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for status.wws.sony.com (104.192.139.73)
+Host is up (0.018s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for store.sony.com (23.214.230.200)
+Host is up (0.010s latency).
+Other addresses for store.sony.com (not scanned): 2600:1406:3:380::321b 2600:1406:3:386::321b
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for store.sony.edgekey.net (23.214.230.200)
+Host is up (0.0082s latency).
+Other addresses for store.sony.edgekey.net (not scanned): 2600:1406:3:386::321b 2600:1406:3:380::321b
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for subscribe.sel.sony.com (198.245.82.33)
+Host is up (0.063s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for support.dl.sony.com (54.192.117.158)
+Host is up (0.020s latency).
+Other addresses for support.dl.sony.com (not scanned): 54.192.117.193 54.192.117.36 54.192.117.18 54.192.117.98 54.192.117.150 54.192.117.99 54.192.117.62 2600:9000:202f:a00:12:262d:9400:93a1 2600:9000:202f:400:12:262d:9400:93a1 2600:9000:202f:9800:12:262d:9400:93a1 2600:9000:202f:fa00:12:262d:9400:93a1 2600:9000:202f:bc00:12:262d:9400:93a1 2600:9000:202f:9e00:12:262d:9400:93a1 2600:9000:202f:ea00:12:262d:9400:93a1 2600:9000:202f:f200:12:262d:9400:93a1
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for support.mc.spe.sony.com (54.165.232.114)
+Host is up (0.075s latency).
+Other addresses for support.mc.spe.sony.com (not scanned): 34.238.88.247
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for surveys.sony.com (160.33.196.45)
+Host is up (0.076s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for tekzone.spe.sony.com (208.84.225.188)
+Host is up (0.024s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for test-adfs.eu.sony.com (195.2.38.70)
+Host is up (0.16s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for test.sony.com (173.230.203.198)
+Host is up (0.023s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+1688/tcp open  nsjtp-data
+3306/tcp open  mysql
+8008/tcp open  http
+
+Nmap scan report for thelearninghub.spe.sony.com (208.84.225.193)
+Host is up (0.030s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for tokens.sel.sony.com (160.33.196.93)
+Host is up (0.075s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for training.spe.sony.com (208.84.225.193)
+Host is up (0.021s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for t.store.sony.com (23.214.230.200)
+Host is up (0.0083s latency).
+Other addresses for t.store.sony.com (not scanned): 2600:1406:3:380::321b 2600:1406:3:386::321b
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for tx.mail01.readerstore.sony.com (74.116.7.252)
+Host is up (0.094s latency).
+Not shown: 998 filtered ports
+PORT    STATE  SERVICE
+80/tcp  open   http
+443/tcp closed https
+
+Nmap scan report for tx.mail02.readerstore.sony.com (74.116.7.252)
+Host is up (0.094s latency).
+Not shown: 998 filtered ports
+PORT    STATE  SERVICE
+80/tcp  open   http
+443/tcp closed https
+
+Nmap scan report for tx.response.readerstore.sony.com (74.116.7.252)
+Host is up (0.095s latency).
+Not shown: 998 filtered ports
+PORT    STATE  SERVICE
+80/tcp  open   http
+443/tcp closed https
+
+Nmap scan report for us.digitalcinema.sony.com (184.25.227.96)
+Host is up (0.0081s latency).
+Other addresses for us.digitalcinema.sony.com (not scanned): 2600:1406:3:39a::ea9 2600:1406:3:389::ea9
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for us.en.kb.sony.com (129.152.38.192)
+Host is up (0.070s latency).
+Not shown: 993 filtered ports
+PORT     STATE  SERVICE
+21/tcp   closed ftp
+22/tcp   closed ssh
+80/tcp   open   http
+443/tcp  open   https
+1688/tcp closed nsjtp-data
+3306/tcp closed mysql
+8008/tcp closed http
+
+Nmap scan report for us.professional.sony.com (80.88.39.151)
+Host is up (0.16s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for vaiodirect.sel.sony.com (23.214.230.200)
+Host is up (0.0084s latency).
+Other addresses for vaiodirect.sel.sony.com (not scanned): 2600:1406:3:386::321b 2600:1406:3:380::321b
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for vaioimprovement.sony.com (79.125.125.176)
+Host is up (0.16s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for vendorportal.sel.sony.com (72.26.101.107)
+Host is up (0.011s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for view.email.sel.sony.com (68.232.203.71)
+Host is up (0.062s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for view.protectionplus.sel.sony.com (68.232.203.71)
+Host is up (0.063s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for vpn.spe.sony.com (208.84.225.139)
+Host is up (0.019s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for webmail.spe.sony.com (208.84.225.139)
+Host is up (0.024s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for workday.spe.sony.com (208.84.225.193)
+Host is up (0.022s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for work.playstation.sony.com (64.68.77.213)
+Host is up (0.018s latency).
+Not shown: 993 filtered ports
+PORT     STATE  SERVICE
+21/tcp   closed ftp
+22/tcp   closed ssh
+80/tcp   open   http
+443/tcp  open   https
+1688/tcp closed nsjtp-data
+3306/tcp closed mysql
+8008/tcp closed http
+
+Nmap scan report for world.sony.com (52.54.18.9)
+Host is up (0.075s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for ws.sel.sony.com (160.33.177.148)
+Host is up (0.076s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for wwp.spe.sony.com (208.84.225.188)
+Host is up (0.025s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for www.cierge.sony.com (23.214.230.200)
+Host is up (0.0080s latency).
+Other addresses for www.cierge.sony.com (not scanned): 2600:1406:3:380::321b 2600:1406:3:386::321b
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for www.community.sony.com (208.74.205.253)
+Host is up (0.018s latency).
+Not shown: 993 filtered ports
+PORT     STATE  SERVICE
+21/tcp   closed ftp
+22/tcp   closed ssh
+80/tcp   open   http
+443/tcp  open   https
+1688/tcp closed nsjtp-data
+3306/tcp closed mysql
+8008/tcp closed http
+
+Nmap scan report for www.css.ap.sony.com (121.100.40.17)
+Host is up (0.20s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for www.docs.sony.com (160.33.196.45)
+Host is up (0.075s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for www.ebooks.sony.com (173.230.217.88)
+Host is up (0.023s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for www.ebooksstore.sony.com (173.230.217.88)
+Host is up (0.024s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for www.ebookstore.sony.com (173.230.217.88)
+Host is up (0.023s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for www.esupport.sony.com (52.73.211.213)
+Host is up (0.074s latency).
+Other addresses for www.esupport.sony.com (not scanned): 52.0.35.242
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for www.gwt-usca.edgekey.net (23.214.230.200)
+Host is up (0.0072s latency).
+Other addresses for www.gwt-usca.edgekey.net (not scanned): 2600:1406:3:386::321b 2600:1406:3:380::321b
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for www.ita.sel.sony.com (207.115.81.33)
+Host is up (0.034s latency).
+Not shown: 993 filtered ports
+PORT     STATE  SERVICE
+21/tcp   closed ftp
+22/tcp   closed ssh
+80/tcp   closed http
+443/tcp  closed https
+1688/tcp closed nsjtp-data
+3306/tcp closed mysql
+8008/tcp closed http
+
+Nmap scan report for www.oriss.ap.sony.com (107.154.105.16)
+Host is up (0.0078s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+3306/tcp open  mysql
+8008/tcp open  http
+
+Nmap scan report for www.sdm.sony.com (141.255.168.8)
+Host is up (0.17s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for www.sdp.sel.sony.com (160.33.68.227)
+Host is up (0.012s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for www.servicesplus.sel.sony.com (107.154.105.172)
+Host is up (0.0071s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+3306/tcp open  mysql
+8008/tcp open  http
+
+Nmap scan report for www.smap.ap.sony.com (199.83.129.12)
+Host is up (0.0077s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+3306/tcp open  mysql
+8008/tcp open  http
+
+Nmap scan report for www.sony.com (23.214.230.200)
+Host is up (0.0078s latency).
+Other addresses for www.sony.com (not scanned): 2600:1406:3:380::321b 2600:1406:3:386::321b
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for www.sonydadc.com (141.255.168.8)
+Host is up (0.17s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for www.store.sony.com (23.214.230.200)
+Host is up (0.0084s latency).
+Other addresses for www.store.sony.com (not scanned): 2600:1406:3:386::321b 2600:1406:3:380::321b
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for www.vendorportal.sel.sony.com (72.26.101.107)
+Host is up (0.010s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for www.world.sony.com (52.54.18.9)
+Host is up (0.074s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 240 IP addresses (240 hosts up) scanned in 283.33 seconds
