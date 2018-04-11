@@ -1,12 +1,9 @@
-﻿
-
-
->
-
 ## Meeting #2 - Bug Bounty 101.2
 
 Date: April 7, 2018
+
 Time: 10:00a.m. - 12:30 p.m.
+
 Place: Moorpark College, Room T212
 
 - Intro and Welcome Newcomers! 
