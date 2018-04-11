@@ -24,11 +24,11 @@ Start Hacking Sony! > Tools Used
 - Sublist3r > Another Subdomain List
 - Dig 
 - Burpe Suite > Steps to follow:
-			1. Disable Intercept
-			2. Click on everything on the Sony Site
-			3. See what is tracked by BurpSuite
-			4. Look at the cookies located in BurpSuite
-			5. Be careful of aggressive scans (such as Spider) which may break the host!  
+	1. Disable Intercept
+	2. Click on everything on the Sony Site
+	3. See what is tracked by BurpSuite
+	4. Look at the cookies located in BurpSuite
+	5. Be careful of aggressive scans (such as Spider) which may break the host!  
 - Old Sony Site > Find what is breakable
 		1. spt.spe.sony.com/robots.txt
 
